@@ -1,0 +1,183 @@
+{
+  "movies": [
+    {
+      "title": "Barbie",
+      "year": 2023,
+      "genres": [
+        "Comedy"
+      ],
+      "description": "Barbie is an upcoming comedy film directed by Greta Gerwig, who co-wrote it with Noah Baumbach. Based on the Barbie fashion dolls by Mattel, the film is the first live-action Barbie film after several computer-animated direct-to-video and streaming television films. The film stars Margot Robbie and Ryan Gosling as Barbie and Ken, respectively, alongside a large ensemble supporting cast.",
+      "cast": [
+        "Margot Robbie",
+        "Ryan Gosling"
+      ],
+      "thumbnail": "https://m.media-amazon.com/images/M/MV5BNjU3N2QxNzYtMjk1NC00MTc4LTk1NTQtMmUxNTljM2I0NDA5XkEyXkFqcGdeQXVyODE5NzE3OTE@._V1_FMjpg_UX1000_.jpg",
+      "id": "1"
+    },
+    {
+      "title": "Emma",
+      "year": " 2020",
+      "genres": [
+        "Comedy",
+        "Historical"
+      ],
+      "description": "Emma is a 2020 period romantic comedy film directed by Autumn de Wilde, from a screenplay by Eleanor Catton, based on Jane Austen's 1815 novel of the same name. It stars Anya Taylor-Joy as Miss Emma Woodhouse, a wealthy and elegant young woman living with her father in Regency-era England who amuses herself with matchmaking and meddles in the romantic lives of those closest to her. The film also stars Johnny Flynn, Josh O'Connor, Callum Turner, Mia Goth, Miranda Hart, and Bill Nighy.\"",
+      "cast": [
+        "Anya Taylor-Joy",
+        "Johnny Flynn"
+      ],
+      "thumbnail": "https://upload.wikimedia.org/wikipedia/en/5/53/Emma_poster.jpeg",
+      "id": "2"
+    },
+    {
+      "title": "Pulp Fiction",
+      "year": "1994 ",
+      "genres": [
+        "Action",
+        "Crime"
+      ],
+      "description": "Jules Winnfield (Samuel L. Jackson) and Vincent Vega (John Travolta) are two hitmen who are out to retrieve a suitcase stolen from their employer, mob boss Marsellus Wallace (Ving Rhames). Wallace has also asked Vincent to take his wife Mia (Uma Thurman) out a few days later when Wallace himself will be out of town. Butch Coolidge (Bruce Willis) is an aging boxer who is paid by Wallace to lose his fight. The lives of these seemingly unrelated people are woven together comprising of a series of funny, bizarre and uncalled-for incidents.",
+      "cast": [
+        "Samuel L. Jackson",
+        "John Travolta"
+      ],
+      "thumbnail": "https://m.media-amazon.com/images/M/MV5BNGNhMDIzZTUtNTBlZi00MTRlLWFjM2ItYzViMjE3YzI5MjljXkEyXkFqcGdeQXVyNzkwMjQ5NzM@._V1_.jpg",
+      "id": "3"
+    },
+    {
+      "title": "Puss in Boots: The Last Wish",
+      "year": "2022",
+      "genres": [
+        "Animated",
+        "Comedy"
+      ],
+      "description": "Set after the events of Shrek Forever After (2010), the story follows Puss in Boots, who teams up with Kitty and Perrito to find the Last Wish of the fallen Wishing Star to restore eight of his nine lives. They race against other fairy tale characters seeking the same treasure, while a sinister wolf hunts Puss himself.",
+      "cast": [
+        "Antonio Banderas",
+        "Salma Hayek Pinault"
+      ],
+      "thumbnail": "https://m.media-amazon.com/images/M/MV5BNjMyMDBjMGUtNDUzZi00N2MwLTg1MjItZTk2MDE1OTZmNTYxXkEyXkFqcGdeQXVyMTQ5NjA0NDM0._V1_.jpg",
+      "id": "6"
+    },
+    {
+      "title": " Dune: Part Two (2024)",
+      "year": "2024",
+      "genres": [
+        "Sci-Fi",
+        "Action"
+      ],
+      "description": "Paul Atreides unites with Chani and the Fremen while on a warpath of revenge against the conspirators who destroyed his family. Facing a choice between the love of his life and the fate of the known universe, he endeavors to prevent a terrible future only he can foresee.",
+      "cast": [
+        "Timothée Chalamet",
+        "Zendaya"
+      ],
+      "thumbnail": "https://pbs.twimg.com/media/GHSkuVRW4AA88Aa?format=jpg&name=900x900",
+      "id": "6159"
+    },
+    {
+      "id": "86dd",
+      "title": "Furiosa: A Mad Max Saga",
+      "year": "2024",
+      "genres": [
+        "Sci-Fi",
+        "Action"
+      ],
+      "description": "The origin story of renegade warrior Furiosa before her encounter and teamup with Mad Max.",
+      "cast": [
+        "Anya Taylor-Joy",
+        "Chris Hemsworth"
+      ],
+      "thumbnail": "https://awsimages.detik.net.id/community/media/visual/2024/05/23/furiosa-a-mad-max-saga.jpeg?w=650"
+    },
+    {
+      "title": "Exhuma",
+      "year": "2024",
+      "genres": [
+        "Horror",
+        "Thriller"
+      ],
+      "description": "When a renowned shaman (KIM Go-Eun) and her protégé (Lee Do-hyun) are hired by a wealthy, enigmatic family, they begin investigating the cause of a disturbing supernatural illness that affects only the first-born children of each generation. With the help of a knowledgeable mortician (YOO Hai-jin) and the country's most revered geomancer (CHOI Min-sik), they soon trace the affliction's origin to a long-hidden family grave located on sacred ground. Sensing an ominous aura surrounding the burial site, the team opts to exhume and relocate the ancestral remains immediately. But as something much darker emerges, they soon discover what befalls those who dare to mess with the wrong grave.",
+      "cast": [
+        "Kim Go-eun",
+        "Choi Min-sik",
+        "Lee Do-hyun"
+      ],
+      "thumbnail": "https://asset-a.grid.id/crop/0x0:0x0/x/photo/2024/03/17/exhuma-1-170324jpg-20240317035509.jpg",
+      "id": "c251"
+    },
+    {
+      "id": "b4e5",
+      "title": "Star Wars: The Rise of Skywalker",
+      "year": "2019",
+      "genres": [
+        "Sci-Fi",
+        "Action"
+      ],
+      "description": "Set one year after The Last Jedi, The Rise of Skywalker follows Rey, Finn, and Poe Dameron as they lead the Resistance's final stand against Supreme Leader Kylo Ren and the First Order, who are aided by the Sith Lord, Emperor Palpatine.",
+      "cast": [
+        "Carrie Fisher",
+        "Mark Hamill"
+      ],
+      "thumbnail": "https://cinemags.org/wp-content/uploads/2019/08/star-wars-9.jpg"
+    },
+    {
+      "title": "The Breakfast Club",
+      "year": "1985",
+      "genres": [
+        "Comedy",
+        "Drama"
+      ],
+      "description": "The Breakfast Club is a 1985 American indie teen coming-of-age comedy-drama film written, produced, and directed by John Hughes. It stars Emilio Estevez, Paul Gleason, Anthony Michael Hall, Judd Nelson, Molly Ringwald, and Ally Sheedy. The film tells the story of five teenagers from different high school cliques who serve a Saturday detention overseen by their authoritarian vice principal.",
+      "cast": [
+        "Emilio Estevez",
+        "Paul Gleason"
+      ],
+      "thumbnail": "https://resizing.flixster.com/-XZAfHZM39UwaGJIFWKAE8fS0ak=/v3/t/assets/p8670_p_v8_ab.jpg",
+      "id": "2f8a"
+    },
+    {
+      "id": "7001",
+      "title": "Monster",
+      "year": "2004",
+      "genres": [
+        "Thriller",
+        "Animated"
+      ],
+      "description": "Dr. Kenzou Tenma, an elite neurosurgeon recently engaged to his hospital director's daughter, is well on his way to ascending the hospital hierarchy. That is until one night, a seemingly small event changes Dr. Tenma's life forever. While preparing to perform surgery on someone, he gets a call from the hospital director telling him to switch patients and instead perform life-saving brain surgery on a famous performer. His fellow doctors, fiancée, and the hospital director applaud his accomplishment; but because of the switch, a poor immigrant worker is dead, causing Dr. Tenma to have a crisis of conscience.\n\nSo when a similar situation arises, Dr. Tenma stands his ground and chooses to perform surgery on the young boy Johan Liebert instead of the town's mayor. Unfortunately, this choice leads to serious ramifications for Dr. Tenma—losing his social standing being one of them. However, with the mysterious death of the director and two other doctors, Dr. Tenma's position is restored. With no evidence to convict him, he is released and goes on to attain the position of hospital director.\n\nNine years later when Dr. Tenma saves the life of a criminal, his past comes back to haunt him—once again, he comes face to face with the monster he operated on. He must now embark on a quest of pursuit to make amends for the havoc spread by the one he saved.",
+      "cast": [
+        "Keith Silverstein"
+      ],
+      "thumbnail": "https://m.media-amazon.com/images/M/MV5BM2ZkYTAwMGMtOGEwOS00MzBjLTgxOGYtZTYwY2E1ZjMyZmY4XkEyXkFqcGdeQXVyNTgyNTA4MjM@._V1_.jpg"
+    },
+    {
+      "title": "Challengers",
+      "year": "2024",
+      "genres": [
+        "Romance",
+        "Drama"
+      ],
+      "description": "The film centers around the love triangle between a failed tennis star turned coach (Zendaya), her low-circuit tennis player ex-boyfriend (O’Connor), and her tennis champion husband (Faist) across thirteen years of their shared relationship, culminating in the latter two’s match at the ATP Challenger Tour.",
+      "cast": [
+        "Zendaya",
+        "Josh O'Connor",
+        "Mike Faist"
+      ],
+      "thumbnail": "https://image.tmdb.org/t/p/original/esLooowdB92I3dVI3ENlPPpTuWT.jpg",
+      "id": "1429"
+    },
+    {
+      "id": "2e05",
+      "title": "The Menu",
+      "year": "2022",
+      "genres": [
+        "Thriller"
+      ],
+      "description": "The Menu is a 2022 black comedy film directed by Mark Mylod and written by Seth Reiss and Will Tracy. It stars an ensemble cast consisting of Ralph Fiennes, Anya Taylor-Joy, Nicholas Hoult, Hong Chau, Janet McTeer, Judith Light, and John Leguizamo. It follows a foodie and his date traveling to a remote island to eat at an exclusive restaurant where the chef has prepared a lavish menu but reveals shocking surprises throughout the meal.",
+      "cast": [
+        "Ralph Fiennes",
+        "Anya Taylor-Joy"
+      ],
+      "thumbnail": "https://usmfreepress.org/wp-content/uploads/2023/03/the-menu.jpg"
+    }
+  ]
+}
