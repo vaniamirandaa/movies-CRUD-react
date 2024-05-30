@@ -1,0 +1,50 @@
+{
+    "genres": [
+      {
+        "id": 1,
+        "name": "Action"
+      },
+      {
+        "id": 2,
+        "name": "Crime"
+      },
+      {
+        "id": 3,
+        "name": "Drama"
+      },
+      {
+        "id": 4,
+        "name": "Sci-Fi"
+      },
+      {
+        "id": 5,
+        "name": "Comedy"
+      }
+      ,
+      {
+        "id": 6,
+        "name": "Teen"
+      },
+      {
+        "id": 7,
+        "name": "Animation"
+      },
+      {
+        "id": 8,
+        "name": "Romance"
+      },
+      {
+        "id": 9,
+        "name": "Thriller"
+      },
+      {
+        "id": 10,
+        "name": "Horror"
+      },
+      {
+        "id": 11,
+        "name": "Historical"
+      }
+    ]
+  }
+  

@@ -90,9 +90,9 @@ const App = () => {
     setSelectedMovie(movie);
     setView("detail");
   };
-
+  
   return (
-    <div>
+    <div className="bg-white-900">
       <Navigation
         onHomeButtonClick={() => window.location.reload()}
         onFavoriteButtonClick={() => setView("favorite")}
@@ -115,12 +115,10 @@ const App = () => {
           onEditMovie={handleEdit}
           onAddFavorite={handleAddFavorite}
           onRemoveFavorite={handleRemoveFavorite}
-          isFavorite={favoriteMovies.some(
-            (movie) => movie.id === selectedMovie.id
-          )}
-        />
+          isFavorite={favoriteMovies.find(movie => movie.id === selectedMovie.id) !== undefined}
+          />
       )}
-      {view === "form" && <MovieForm onSubmit={handleAdd} />}
+      {view === "form" && <MovieForm onSubmit={handleAdd} onCancel={() => setView("list")} />}
       {view === "favorite" && (
         <FavoriteMovies
           favoriteMovies={favoriteMovies}

@@ -39,7 +39,7 @@ const Login = ({ onLogin }) => {
             />
           </div>
           <div className="flex items-center justify-between">
-            <button type="submit" className="btn btn-primary w-full bg-green-500">Login</button>
+            <button type="submit" className="btn w-full rounded-full bg-sky-500 text-white hover:text-black">Login</button>
           </div>
           {alert && <p className="text-red-500 text-xs italic mt-4">{alert}</p>}
         </form>

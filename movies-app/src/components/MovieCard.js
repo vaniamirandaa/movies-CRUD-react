@@ -15,7 +15,7 @@ const MovieCard = ({ movie, onSelect, onRemoveFavorite }) => {
         src={movie.thumbnail}
         alt={movie.title}
         className="w-full h-full mb-2 cursor-pointer object-cover"
-        style={{ width: '100%', height: '100%' }}
+        style={{ width: '100%', height: '300px' }}
         onClick={handleSelect}
       />
       <p

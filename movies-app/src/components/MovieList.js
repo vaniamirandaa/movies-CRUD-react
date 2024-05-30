@@ -1,82 +1,66 @@
-
-
-import React, { useState } from "react";
+import React from "react";
 import MovieCard from "./MovieCard";
+import SearchandFilter from "./SearchandFilter";
 
 const MovieList = ({ movies, onMovieSelect }) => {
-  const [selectedGenre, setSelectedGenre] = useState(null);
-  const [search, setSearch] = useState("");
-
-  const filterMoviesByGenre = (e) => {
-    const genre = e.target.value;
-    setSelectedGenre(genre === "all" ? null : genre);
-  };
-
-  const handleSearch = (e) => {
-    setSearch(e.target.value.toLowerCase());
-  };
-
-  const renderMovies = () => {
-    let filteredMovies = movies;
-
-    if (selectedGenre) {
-      filteredMovies = filteredMovies.filter((movie) =>
-        movie.genres.includes(selectedGenre)
-      );
-    }
-
-    if (search) {
-      filteredMovies = filteredMovies.filter((movie) =>
-        movie.title.toLowerCase().includes(search)
-      );
-    }
-
-    if (filteredMovies.length === 0) {
-      return <li>No movies available.</li>;
-    } else {
-      return filteredMovies.map((movie) => (
-        <MovieCard key={movie.id} movie={movie} onSelect={onMovieSelect} />
-      ));
-    }
-  };
+  const {
+    genres,
+    selectedGenres,
+    search,
+    filteredMovies,
+    handleSelectGenre,
+    handleSearch,
+  } = SearchandFilter(movies);
 
   return (
     <div className="flex flex-col items-center">
-      <h2 className="text-2xl font-semibold mb-2 mt-2"> Movie List</h2>
+      <h2 className="text-2xl font-semibold mb-2 mt-2">Movie List</h2>
       <div className="flex flex-row justify-center items-center space-x-4 pb-2 pt-2">
-        <select
-          className="select select-bordered w-full"
-          onChange={filterMoviesByGenre}
-        >
-          <option value="" disabled>
-            Select Genre
-          </option>
-          <option value="all">Show All Genres</option>
-          <option value="Action">Action</option>
-          <option value="Animated">Animated</option>
-          <option value="Comedy">Comedy</option>
-          <option value="Drama">Drama</option>
-          <option value="Horror">Horror</option>
-          <option value="Romance">Romance</option>
-          <option value="Sci-Fi">Sci-Fi</option>
-          <option value="Thriller">Thriller</option>
-        </select>
+        <div>
+          {/* <label htmlFor="searchMovie" className="block font-semibold mb-1">
+            Search Movie
+          </label> */}
+          <input
+            type="text"
+            placeholder="Search by title..."
+            value={search}
+            onChange={handleSearch}
+            style={{ width: '800px' }}
+            className="border border-gray-300 rounded-full px-4 py-2"
+          />
+        </div>
 
-        
-        <input
-          type="text"
-          placeholder="Search by title"
-          value={search}
-          onChange={handleSearch}
-          className="p-2 border border-gray-300 rounded  space-x-4"
-        />
       </div>
-      <div className="flex overflow-x-auto">
-      <ul className="flex flex-wrap justify-center" style={{ margin: '10px 20px'}}>
+      <div className="flex flex-wrap justify-center space-x-2 pb-2 pt-2">
+        {genres.map((genre) => (
+          <button
+            key={genre.id}
+            className={`px-4 py-2 rounded-full ${selectedGenres.includes(genre.name)
+              ? "bg-sky-500 text-white"
+              : "bg-gray-200 text-gray-800"
+              }`}
+            onClick={() => handleSelectGenre(genre.name)}
+          >
+            {genre.name}
+          </button>
+        ))}
+      </div>
+      <div className="overflow-x-auto" style={{ margin: '15px 20px' }}>
+        {filteredMovies.length === 0 ? (
+          <p>No movies available.</p>
+        ) : (
+          <ul className="grid" style={{ display: 'grid', gridTemplateColumns: 'repeat(4, 1fr)', padding: 0, margin: 0 }}>
+            {filteredMovies.map((movie) => (
+              <li key={movie.id} style={{ marginTop: '12px' }}>
+                <MovieCard movie={movie} onSelect={onMovieSelect} />
+              </li>
+            ))}
+          </ul>
+        )}
+      </div>
 
-          {renderMovies()}
-        </ul>
-      </div>
+
+
     </div>
   );
 };

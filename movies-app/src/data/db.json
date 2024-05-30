@@ -4,7 +4,8 @@
       "title": "Barbie",
       "year": 2023,
       "genres": [
-        "Comedy"
+        "Comedy",
+        "Drama"
       ],
       "description": "Barbie is an upcoming comedy film directed by Greta Gerwig, who co-wrote it with Noah Baumbach. Based on the Barbie fashion dolls by Mattel, the film is the first live-action Barbie film after several computer-animated direct-to-video and streaming television films. The film stars Margot Robbie and Ryan Gosling as Barbie and Ken, respectively, alongside a large ensemble supporting cast.",
       "cast": [
@@ -18,7 +19,8 @@
       "title": "Emma",
       "year": " 2020",
       "genres": [
-        "Comedy",
+        "Drama",
+        "Romance",
         "Historical"
       ],
       "description": "Emma is a 2020 period romantic comedy film directed by Autumn de Wilde, from a screenplay by Eleanor Catton, based on Jane Austen's 1815 novel of the same name. It stars Anya Taylor-Joy as Miss Emma Woodhouse, a wealthy and elegant young woman living with her father in Regency-era England who amuses herself with matchmaking and meddles in the romantic lives of those closest to her. The film also stars Johnny Flynn, Josh O'Connor, Callum Turner, Mia Goth, Miranda Hart, and Bill Nighy.\"",
@@ -48,8 +50,8 @@
       "title": "Puss in Boots: The Last Wish",
       "year": "2022",
       "genres": [
-        "Animated",
-        "Comedy"
+        "Comedy",
+        "Animation"
       ],
       "description": "Set after the events of Shrek Forever After (2010), the story follows Puss in Boots, who teams up with Kitty and Perrito to find the Last Wish of the fallen Wishing Star to restore eight of his nine lives. They race against other fairy tale characters seeking the same treasure, while a sinister wolf hunts Puss himself.",
       "cast": [
@@ -63,8 +65,8 @@
       "title": " Dune: Part Two (2024)",
       "year": "2024",
       "genres": [
-        "Sci-Fi",
-        "Action"
+        "Action",
+        "Sci-Fi"
       ],
       "description": "Paul Atreides unites with Chani and the Fremen while on a warpath of revenge against the conspirators who destroyed his family. Facing a choice between the love of his life and the fate of the known universe, he endeavors to prevent a terrible future only he can foresee.",
       "cast": [
@@ -75,7 +77,6 @@
       "id": "6159"
     },
     {
-      "id": "86dd",
       "title": "Furiosa: A Mad Max Saga",
       "year": "2024",
       "genres": [
@@ -87,7 +88,8 @@
         "Anya Taylor-Joy",
         "Chris Hemsworth"
       ],
-      "thumbnail": "https://awsimages.detik.net.id/community/media/visual/2024/05/23/furiosa-a-mad-max-saga.jpeg?w=650"
+      "thumbnail": "https://awsimages.detik.net.id/community/media/visual/2024/05/23/furiosa-a-mad-max-saga.jpeg?w=650",
+      "id": "86dd"
     },
     {
       "title": "Exhuma",
@@ -125,7 +127,8 @@
       "year": "1985",
       "genres": [
         "Comedy",
-        "Drama"
+        "Drama",
+        "Teen"
       ],
       "description": "The Breakfast Club is a 1985 American indie teen coming-of-age comedy-drama film written, produced, and directed by John Hughes. It stars Emilio Estevez, Paul Gleason, Anthony Michael Hall, Judd Nelson, Molly Ringwald, and Ally Sheedy. The film tells the story of five teenagers from different high school cliques who serve a Saturday detention overseen by their authoritarian vice principal.",
       "cast": [
@@ -178,6 +181,21 @@
         "Anya Taylor-Joy"
       ],
       "thumbnail": "https://usmfreepress.org/wp-content/uploads/2023/03/the-menu.jpg"
+    },
+    {
+      "title": "Past Lives",
+      "year": "2023",
+      "genres": [
+        "Drama",
+        "Romance"
+      ],
+      "description": "Nora and Hae Sung, two deeply connected childhood friends, are wrest apart after Nora’s family emigrates from South Korea. Two decades later, they are reunited in New York for one fateful week as they confront notions of destiny, love, and the choices that make a life, in this heartrending modern romance.",
+      "cast": [
+        "Greta Lee",
+        "Teo Yoo"
+      ],
+      "thumbnail": "https://d135u4jtzauizi.cloudfront.net/pastlives_tease_vertical_27x40_compressed.JPG",
+      "id": "c98e"
     }
   ]
 }
