@@ -139,18 +139,18 @@
       "id": "2f8a"
     },
     {
-      "id": "7001",
       "title": "Monster",
       "year": "2004",
       "genres": [
         "Thriller",
-        "Animated"
+        "Animation"
       ],
       "description": "Dr. Kenzou Tenma, an elite neurosurgeon recently engaged to his hospital director's daughter, is well on his way to ascending the hospital hierarchy. That is until one night, a seemingly small event changes Dr. Tenma's life forever. While preparing to perform surgery on someone, he gets a call from the hospital director telling him to switch patients and instead perform life-saving brain surgery on a famous performer. His fellow doctors, fiancée, and the hospital director applaud his accomplishment; but because of the switch, a poor immigrant worker is dead, causing Dr. Tenma to have a crisis of conscience.\n\nSo when a similar situation arises, Dr. Tenma stands his ground and chooses to perform surgery on the young boy Johan Liebert instead of the town's mayor. Unfortunately, this choice leads to serious ramifications for Dr. Tenma—losing his social standing being one of them. However, with the mysterious death of the director and two other doctors, Dr. Tenma's position is restored. With no evidence to convict him, he is released and goes on to attain the position of hospital director.\n\nNine years later when Dr. Tenma saves the life of a criminal, his past comes back to haunt him—once again, he comes face to face with the monster he operated on. He must now embark on a quest of pursuit to make amends for the havoc spread by the one he saved.",
       "cast": [
         "Keith Silverstein"
       ],
-      "thumbnail": "https://m.media-amazon.com/images/M/MV5BM2ZkYTAwMGMtOGEwOS00MzBjLTgxOGYtZTYwY2E1ZjMyZmY4XkEyXkFqcGdeQXVyNTgyNTA4MjM@._V1_.jpg"
+      "thumbnail": "https://m.media-amazon.com/images/M/MV5BM2ZkYTAwMGMtOGEwOS00MzBjLTgxOGYtZTYwY2E1ZjMyZmY4XkEyXkFqcGdeQXVyNTgyNTA4MjM@._V1_.jpg",
+      "id": "7001"
     },
     {
       "title": "Challengers",
@@ -196,6 +196,79 @@
       ],
       "thumbnail": "https://d135u4jtzauizi.cloudfront.net/pastlives_tease_vertical_27x40_compressed.JPG",
       "id": "c98e"
+    },
+    {
+      "title": "Oppenheimer",
+      "year": "2023",
+      "genres": [
+        "Drama"
+      ],
+      "description": "Based on the 2005 biography American Prometheus by Kai Bird and Martin J. Sherwin, the film chronicles Oppenheimer's studies, his direction of the Los Alamos Laboratory and his 1954 security hearing.",
+      "cast": [
+        "Cillian Murphy",
+        "Emily Blunt"
+      ],
+      "thumbnail": "https://m.media-amazon.com/images/I/71lqDylcvGL._AC_UF894,1000_QL80_.jpg",
+      "id": "399c"
+    },
+    {
+      "id": "7542",
+      "title": "TENET",
+      "year": "2020",
+      "genres": [
+        "Action",
+        "Sci-Fi"
+      ],
+      "description": "The film follows a former CIA agent who is recruited into a secret organization, tasked with tracing the origin of objects that are traveling backwards through time and their connection to an attack from the future to the present. Nolan continued his relationship with Warner Bros. and his production company Syncopy for the film's production and distribution.",
+      "cast": [
+        "John David Washington",
+        "Robert Pattinson"
+      ],
+      "thumbnail": "https://blue.kumparan.com/image/upload/fl_progressive,fl_lossy,c_fill,q_auto:best,w_640/v1608177229/MV5BYzg0NGM2NjAtNmIxOC00MDJmLTg5ZmYtYzM0MTE4NWE2NzlhXkEyXkFqcGdeQXVyMTA4NjE0NjEy._V1__qjn50w.jpg"
+    },
+    {
+      "id": "51cd",
+      "title": "Saltburn",
+      "year": "2023",
+      "genres": [
+        "Action",
+        "Comedy"
+      ],
+      "description": "Set in Oxford and Northamptonshire, it focuses on a student at Oxford who becomes fixated with a popular, aristocratic fellow student, who later invites him to spend the summer at his eccentric family's estate.",
+      "cast": [
+        "Barry Keoghan",
+        "Jacob Elordi"
+      ],
+      "thumbnail": "https://image.tmdb.org/t/p/original/dIU9Dx0iG89Fs7uSVvth5Haead4.jpg"
+    },
+    {
+      "id": "9a4b",
+      "title": "Priscilla",
+      "year": "2023",
+      "genres": [
+        "Drama",
+        "Romance"
+      ],
+      "description": "When teenage Priscilla Beaulieu meets Elvis Presley at a party, the man who is already a meteoric rock-and-roll superstar becomes someone entirely unexpected in private moments: a thrilling crush, an ally in loneliness, a vulnerable best friend. Through Priscilla's eyes, Sofia Coppola tells the unseen side of a great American myth in Elvis and Priscilla's long courtship and turbulent marriage, from a German army base to his dream-world estate at Graceland, in this deeply felt and ravishingly detailed portrait of love, fantasy, and fame.\n",
+      "cast": [
+        "Cailee Spaeny",
+        "Jacob Elordi"
+      ],
+      "thumbnail": "https://m.media-amazon.com/images/M/MV5BOTQyZTBiMjAtZTNjZi00ZjU0LWFkMTQtMDE3Nzc1MjVmMTM4XkEyXkFqcGdeQXVyMTM1NjM2ODg1._V1_.jpg"
+    },
+    {
+      "id": "9b51",
+      "title": "Clueless",
+      "year": "1995",
+      "genres": [
+        "Comedy",
+        "Teen"
+      ],
+      "description": "The plot centers on a beautiful, popular, and rich high school student who befriends a new student and decides to give her a makeover while playing matchmaker for her teachers and examining her own existence.",
+      "cast": [
+        "Alicia Silverstone"
+      ],
+      "thumbnail": "https://m.media-amazon.com/images/M/MV5BMzBmOGQ0NWItOTZjZC00ZDAxLTgyOTEtODJiYWQ2YWNiYWVjXkEyXkFqcGdeQXVyNTE1NjY5Mg@@._V1_.jpg"
     }
   ]
 }

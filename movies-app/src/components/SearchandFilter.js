@@ -14,7 +14,6 @@ const SearchandFilter = (movies) => {
       const res = await fetch("http://localhost:3031/genres");
       const data = await res.json();
       setGenres(data);
-      console.log(data, "<<<")
     } catch (err) {
       console.log("Error fetching genres:", err);
     }
@@ -25,8 +24,7 @@ const SearchandFilter = (movies) => {
       prevGenres.includes(genre)
         ? prevGenres.filter((g) => g !== genre)
         : [...prevGenres, genre]
-      );
-      console.log(handleSelectGenre, "????")
+    );
   };
 
   const handleSearch = (e) => {
@@ -34,19 +32,10 @@ const SearchandFilter = (movies) => {
   };
 
   const filteredMovies = movies.filter((movie) => {
-    let matchesGenres = selectedGenres.length === 0; 
-  
-    for (const genre of selectedGenres) {
-      if (movie.genres.includes(genre)) {
-        matchesGenres = true;  
-      } else {
-        matchesGenres = false;  
-      }
-    }
-  
-    return matchesGenres;
+    const matchesSelectedGenres = selectedGenres.every(genre => movie.genres.includes(genre));
+    const matchesSearch = movie.title.toLowerCase().includes(search);
+    return matchesSelectedGenres && matchesSearch;
   });
-  
 
   return {
     genres,

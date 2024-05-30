@@ -1,6 +1,7 @@
-import React from "react";
+import React, { useState } from "react";
 import MovieCard from "./MovieCard";
 import SearchandFilter from "./SearchandFilter";
+import Pagination from "./Pagination";
 
 const MovieList = ({ movies, onMovieSelect }) => {
   const {
@@ -12,14 +13,31 @@ const MovieList = ({ movies, onMovieSelect }) => {
     handleSearch,
   } = SearchandFilter(movies);
 
+  const [currentPage, setCurrentPage] = useState(1);
+  const moviesPerPage = 8;
+
+  const paginate = (movies, currentPage, moviesPerPage) => {
+    const indexOfLastMovie = currentPage * moviesPerPage;
+    const indexOfFirstMovie = indexOfLastMovie - moviesPerPage;
+    return movies.slice(indexOfFirstMovie, indexOfLastMovie);
+  };
+
+  const getPageNumbers = (totalMovies, moviesPerPage) => {
+    return Math.ceil(totalMovies / moviesPerPage);
+  };
+
+  const handlePageClick = (e) => {
+    setCurrentPage(Number(e.target.id));
+  };
+
+  const currentMovies = paginate(filteredMovies, currentPage, moviesPerPage);
+  const totalPages = getPageNumbers(filteredMovies.length, moviesPerPage);
+
   return (
     <div className="flex flex-col items-center">
       <h2 className="text-2xl font-semibold mb-2 mt-2">Movie List</h2>
       <div className="flex flex-row justify-center items-center space-x-4 pb-2 pt-2">
         <div>
-          {/* <label htmlFor="searchMovie" className="block font-semibold mb-1">
-            Search Movie
-          </label> */}
           <input
             type="text"
             placeholder="Search by title..."
@@ -29,7 +47,6 @@ const MovieList = ({ movies, onMovieSelect }) => {
             className="border border-gray-300 rounded-full px-4 py-2"
           />
         </div>
-
       </div>
       <div className="flex flex-wrap justify-center space-x-2 pb-2 pt-2">
         {genres.map((genre) => (
@@ -46,11 +63,11 @@ const MovieList = ({ movies, onMovieSelect }) => {
         ))}
       </div>
       <div className="overflow-x-auto" style={{ margin: '15px 20px' }}>
-        {filteredMovies.length === 0 ? (
+        {currentMovies.length === 0 ? (
           <p>No movies available.</p>
         ) : (
           <ul className="grid" style={{ display: 'grid', gridTemplateColumns: 'repeat(4, 1fr)', padding: 0, margin: 0 }}>
-            {filteredMovies.map((movie) => (
+            {currentMovies.map((movie) => (
               <li key={movie.id} style={{ marginTop: '12px' }}>
                 <MovieCard movie={movie} onSelect={onMovieSelect} />
               </li>
@@ -58,9 +75,7 @@ const MovieList = ({ movies, onMovieSelect }) => {
           </ul>
         )}
       </div>
-
-
-
+      <Pagination currentPage={currentPage} totalPages={totalPages} onPageClick={handlePageClick} />
     </div>
   );
 };
